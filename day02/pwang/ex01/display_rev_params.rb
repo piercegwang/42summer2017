@@ -4,7 +4,8 @@ input = ARGV
 if input == []
 	print "none\n"
 else
+	input.reverse!
 	input.each do |x|
-		print x.reverse + "\n"
+		print x + "\n"
 	end
 end

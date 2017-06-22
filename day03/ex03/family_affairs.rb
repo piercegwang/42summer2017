@@ -1,10 +1,7 @@
 #!/usr/bin/ruby
 
 def find_the_gingers(para)
-	redheads = para.select {|k,v| v == :red}
-	names = []
-	redheads.each_key { |key| names.push(key) }
-	print names
+	para.select {|k,v|v == :red}.keys
 end
 
 Dupont_family = {
@@ -14,4 +11,4 @@ Dupont_family = {
 	"gaetan" => :red,
 	"fred" => :red,
 }
-find_the_gingers(Dupont_family)
+p find_the_gingers(Dupont_family)

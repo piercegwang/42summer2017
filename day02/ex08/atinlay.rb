@@ -7,16 +7,16 @@ if args == []
    print "none\n"
 else
 	args.each do |word|
-		first_vowel = word.length
+		fvowel = word.length
 		word.length.times do |index|
 			char = word[index]
 			if vowels.include?(char)
-				first_vowel = index
+				fvowel = index
 				break
 			end
 		end
-		if first_vowel == 0 then way = "w" end
-		new_word = "#{word[first_vowel...word.length]}#{way}#{word[0...first_vowel]}ay"
+		if fvowel == 0 then way = "w" else way = "-" end
+		new_word = "#{word[fvowel...word.length]}#{way}#{word[0...fvowel]}ay"
 		puts new_word
 	end
 end
