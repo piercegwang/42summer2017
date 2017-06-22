@@ -6,6 +6,8 @@ This program takes an input of the hash women_in_science and prints their names 
 def great_births(x)
 	names = []
 	x.each {|k,v| names.push(v)} #put values in seperate array, x
+	print names
+	print "\n"
 	names.sort_by! { |hash| hash[:year_of_birth] } #sort values of array, x, by the symbol :year_of_birth
 	names.each do |p| #print each name and birth year with preset text
 		print "#{p[:name].to_s} is a great person born in #{p[:year_of_birth].to_s}.\n"
