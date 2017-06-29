@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "libft.h"
 
 void ft_putnbr(int nb)
 {
@@ -16,20 +16,4 @@ void ft_putnbr(int nb)
     char digit = last_num + '0';
     ft_putchar(digit);
 
-}
-
-void ft_swap(int *a, int *b)
-{
-	int s;
-	s = *a
-	*a = *b
-	*b = s
-}
-int main(void)
-{
-	int a = 8;
-	int b = 16;
-	ft_swap(a,b)
-	ft_putnbr(a)
-	ft_putnbr(b)
 }
