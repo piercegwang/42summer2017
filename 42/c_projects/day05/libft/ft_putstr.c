@@ -1,5 +1,6 @@
 #include <unistd.h>
 
+int ft_putchar(char c);
 void ft_putstr(char *str)
 {
 	int i = 0;

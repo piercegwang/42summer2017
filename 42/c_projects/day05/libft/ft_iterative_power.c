@@ -2,7 +2,7 @@
 
 int ft_iterative_power(int nb, int power)
 {
-    int c, f, cur;
+    int c, cur;
     c = 1;
     cur = nb;
     while (c < power)
