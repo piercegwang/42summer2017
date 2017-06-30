@@ -13,5 +13,26 @@ int ft_atoi(char *str);
 char *strcpy(char *s1, const char *s2);
 char *ft_strncpy(char *s1, const char *s2, int n);
 char *ft_strstr(const char *str, const char *to_find);
+int	ft_strcmp(const char *s1, const char *s2);
+int	ft_strncmp(const char *s1, const char *s2, size_t n);
+char	*ft_strupcase(char *str);
+char	*ft_strlowcase(char *str);
+char    *ft_strcapitalize(char *str);
+int	ft_isalpha(char c);
+int	ft_str_is_alpha(char *str);
+int	ft_isdigit(char c);
+int	ft_str_is_numeric(char *str);
+int	ft_isalnum(int c);
+int	ft_str_is_lowercase(char *str);
+int	ft_isprint(char c);
+int	ft_str_is_printable(char *str);
+char	*ft_strcat(char *dest,	const char *src);
+char	*ft_strncat(char *dest, const char *src, size_t nb);
+int		ft_strlcat(char *dest, char *src, unsigned int size);
+unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size);
+int		ft_check_base(char *base);
+void	ft_putnbr_base(int nbr, char *base);
+int	ft_inbase(char c, int base);
+int	ft_atoi_base(char *str, int base);
 
 #endif
