@@ -32,7 +32,10 @@ FILESC =	ft_atoi.c \
 			ft_check_base.c \
 			ft_putnbr_base.c \
 			ft_inbase.c \
-			ft_atoi_base.c
+			ft_atoi_base.c \
+			ft_isalnum.c \
+			ft_isprint.c \
+			ft_str_is_uppercase.c
 FILESO =	ft_atoi.o \
 			ft_is_negative.o \
 			ft_is_prime.o \
@@ -66,7 +69,10 @@ FILESO =	ft_atoi.o \
 			ft_check_base.o \
 			ft_putnbr_base.o \
 			ft_inbase.o \
-			ft_atoi_base.o
+			ft_atoi_base.o \
+			ft_isalnum.o \
+			ft_isprint.o \
+			ft_str_is_uppercase.o
 HEADERS = includes
 all: $(NAME)
 

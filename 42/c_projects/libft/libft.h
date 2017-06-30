@@ -2,6 +2,11 @@
 # define LIBFT_H
 # include <unistd.h>
 
+typedef struct s_fun {
+    int c;
+    char k;
+}   t_fun;
+
 int ft_putchar(char c);
 void ft_putnbr(int nb);
 void ft_putstr(char *str);
@@ -34,5 +39,6 @@ int		ft_check_base(char *base);
 void	ft_putnbr_base(int nbr, char *base);
 int	ft_inbase(char c, int base);
 int	ft_atoi_base(char *str, int base);
+int	ft_str_is_uppercase(char *str);
 
 #endif
