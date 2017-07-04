@@ -2,16 +2,16 @@
 
 char *ft_strdup(char *s)
 {
-    char *d = malloc(ft_strlen(s)+1);
-    if (d==NULL)
+    char *duped = malloc(ft_strlen(s)+1);
+    if (duped==NULL)
         return NULL;
-    ft_strcpy(d,s);
-    return d;
+    ft_strcpy(duped,s);
+    return duped;
 }
 
 int main(void)
 {
-    char s[10] = "Helloworld";
+    char s[11] = "Helloworld\0";
     char *d;
     d = ft_strdup(s);
     ft_putstr(d);
