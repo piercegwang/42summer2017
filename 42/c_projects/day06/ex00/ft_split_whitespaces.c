@@ -1,6 +1,6 @@
 #include "libft.h"
 
-int ft_iswhitespace(char c)
+int ft_iswhitespace(char c) //func to check if char c is whitespace, new line, etc.
 {
     if ((9<=c && c<=13) || c == ' ')
     {
@@ -9,7 +9,7 @@ int ft_iswhitespace(char c)
     return 0;
 }
 
-int ft_word_count(char *str)
+int ft_word_count(char *str) //check word count of string regardless of space number
 {
     int word_count;
     word_count = 0;
@@ -28,7 +28,7 @@ int ft_word_count(char *str)
     return word_count;
 }
 
-int		ft_ln_w(char *str, int i)
+int		ft_ln_w(char *str, int i) //check word length of word at int i index of char *str
 {
 	int count;
 
@@ -41,7 +41,7 @@ int		ft_ln_w(char *str, int i)
 	return (count);
 }
 
-char **ft_split_whitespaces(char *str)
+char **ft_split_whitespaces(char *str) //main func, split whitespace
 {
     char **res;
     int i,j,k;

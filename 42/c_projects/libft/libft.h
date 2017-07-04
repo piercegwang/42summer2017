@@ -16,7 +16,7 @@ void ft_print_intarray(int *tab, int size);
 void ft_swap(int *a, int *b);
 char *ft_strrev(char *str);
 int ft_atoi(char *str);
-char *strcpy(char *s1, const char *s2);
+char *ft_strcpy(char *s1, const char *s2);
 char *ft_strncpy(char *s1, const char *s2, int n);
 char *ft_strstr(const char *str, const char *to_find);
 int	ft_strcmp(const char *s1, const char *s2);
