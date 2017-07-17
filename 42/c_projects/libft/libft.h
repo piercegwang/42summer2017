@@ -41,5 +41,10 @@ void	ft_putnbr_base(int nbr, char *base);
 int	ft_inbase(char c, int base);
 int	ft_atoi_base(char *str, int base);
 int	ft_str_is_uppercase(char *str);
+char *ft_strdup(char *s);
+int ft_iswhitespace(char c);
+int ft_word_count(char *str);
+int	ft_ln_w(char *str, int i);
+char **ft_split_whitespaces(char *str);
 
 #endif

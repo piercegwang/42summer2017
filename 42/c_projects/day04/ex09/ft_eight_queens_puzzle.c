@@ -36,7 +36,6 @@ int main(void)
 	int n, p;
 	n = 16;
 	ft_putnbr(ft_eight_queens_puzzle());
-  ft_
 	return 0;
 }
 int		ft_eight_queens_puzzle(void)

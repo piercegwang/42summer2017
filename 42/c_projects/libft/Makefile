@@ -35,7 +35,12 @@ FILESC =	ft_atoi.c \
 			ft_atoi_base.c \
 			ft_isalnum.c \
 			ft_isprint.c \
-			ft_str_is_uppercase.c
+			ft_str_is_uppercase.c \
+			ft_strdup.c \
+			ft_iswhitespace.c \
+			ft_word_count.c \
+			ft_ln_w.c \
+			ft_split_whitespaces.c
 FILESO =	ft_atoi.o \
 			ft_is_negative.o \
 			ft_is_prime.o \
@@ -72,7 +77,12 @@ FILESO =	ft_atoi.o \
 			ft_atoi_base.o \
 			ft_isalnum.o \
 			ft_isprint.o \
-			ft_str_is_uppercase.o
+			ft_str_is_uppercase.o \
+			ft_strdup.o \
+			ft_strdup.o \
+			ft_word_count.o \
+			ft_ln_w.o \
+			ft_split_whitespaces.o
 HEADERS = includes
 all: $(NAME)
 

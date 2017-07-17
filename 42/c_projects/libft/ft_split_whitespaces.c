@@ -44,17 +44,3 @@ char **ft_split_whitespaces(char *str) //main func, split whitespace
     res[j] = NULL;
     return (res);
 }
-
-int main(void)
-{
-    char **res;
-    int i;
-    i = 0;
-    res = ft_split_whitespaces("    Hello    krlr rlrllr l l l llllllll asdf.      ");
-    while(res[i])
-    {
-        ft_putstr(res[i]);
-        ft_putchar('\n');
-        i++;
-    }
-}
